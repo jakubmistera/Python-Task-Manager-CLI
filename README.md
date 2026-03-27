@@ -22,12 +22,13 @@ Struktura opiera się na relacjach dziedziczenia i kompozycji:
 3. `TeamTask` - dziedziczy po `Task`, rozszerzona o listę `team_members` (wielu wykonawców).
 4. `TaskManager` - kontroler zarządzający kolekcją zadań (dodawanie, usuwanie, filtrowanie, zapis/odczyt plików).
 
-*(Tutaj możesz wrzucić wyeksportowany diagram UML z projektu)*
-![Diagram Klas UML](link_do_diagramu.jpg)
+<img width="878" height="995" alt="image" src="https://github.com/user-attachments/assets/2add7e54-e79a-445b-94ea-8eeeb43f7738" />
 
 ## 🚀 Użycie programu (Interfejs CLI)
 
 Aplikacja obsługuje argumenty wiersza poleceń dzięki bibliotece `argparse`. Przykłady wywołań:
+
+<img width="945" height="553" alt="image" src="https://github.com/user-attachments/assets/e012f8f4-61b9-4d48-b52b-166a98930664" />
 
 **Dodanie zadania indywidualnego:**
 ```bash
