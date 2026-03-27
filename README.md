@@ -26,10 +26,12 @@ Struktura opiera się na relacjach dziedziczenia i kompozycji:
 
 ## 🚀 Użycie programu (Interfejs CLI)
 
-Aplikacja obsługuje argumenty wiersza poleceń dzięki bibliotece `argparse`. Przykłady wywołań:
-
 <img width="945" height="553" alt="image" src="https://github.com/user-attachments/assets/e012f8f4-61b9-4d48-b52b-166a98930664" />
+
+Aplikacja obsługuje argumenty wiersza poleceń dzięki bibliotece `argparse`. Przykłady wywołań:
 
 **Dodanie zadania indywidualnego:**
 ```bash
 python main.py --add_personal --title "Przygotowanie prezentacji" --description "Slajdy dotyczące układów sterowania" --due_date "2025-02-01" --priority 1 --status "pending" --assignee "Damian G"
+
+
